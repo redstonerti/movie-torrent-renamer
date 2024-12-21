@@ -1,0 +1,14 @@
+[package]
+name = "movie-torrent-renamer"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+native-dialog = { version = "0.7.0", features = [
+    "windows_dpi_awareness",
+    "windows_visual_styles",
+] }
+colored = "2.2.0"
+crossterm = "0.28.1"
+dialoguer = "0.11.0"
+directories = "5.0.1"
